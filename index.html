@@ -3,83 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIDEO ZONE - Watch Now</title>
+<title>VIDEO ZONE</title>
 <style>
-body{margin:0;background:#0f0f0f;color:#fff;font-family:Arial;text-align:center}
-header{background:#000;padding:15px 20px;display:flex;justify-content:space-between;align-items:center}
-header h1{color:#ff0000;margin:0;font-size:24px}
-header input{padding:8px;width:200px;border-radius:20px;border:none}
-.menu{padding:15px 20px;display:flex;gap:10px;justify-content:center}
-.menu button{background:#222;color:#fff;border:none;padding:8px 15px;border-radius:20px;cursor:pointer}
-.menu button:hover{background:red}
-.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;padding:20px 0;justify-content:center}
-@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:450px){.grid{grid-template-columns:1fr}}
-.card{background:#1a1a1a;border-radius:10px;overflow:hidden;text-align:left}
-.card img{width:100%;height:140px;object-fit:cover;display:block}
-.card-body{padding:12px}
-.card-body h3{margin:0 0 5px 0;font-size:16px;line-height:22px}
-.card-body p{color:#aaa;font-size:13px;margin:0 0 10px 0}
-.watch{display:block;text-align:center;background:red;color:#fff;text-decoration:none;padding:10px;border-radius:6px;font-weight:bold}
-.watch:hover{background:#c00}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#00008B;font-family:Arial;color:#fff}
+.top{background:#000080;padding:10px 15px;display:flex;align-items:center;gap:15px;flex-wrap:wrap}
+.logo{font-size:28px;font-weight:900;color:#fff}
+.logo span{color:#00BFFF}
+.logo small{display:block;font-size:11px;font-weight:normal;color:#ddd}
+.search{display:flex;flex:1;max-width:500px}
+.search input{flex:1;padding:9px;border:2px solid #00BFFF;outline:none}
+.search button{background:#0066FF;color:#fff;border:none;padding:9px 15px;cursor:pointer;font-weight:bold}
+.right{margin-left:auto;font-size:13px;display:flex;gap:15px}
+.nav{background:#0066FF;display:flex;gap:5px;padding:0 10px;overflow-x:auto;white-space:nowrap}
+.nav a{color:#fff;text-decoration:none;padding:10px 12px;font-size:14px;font-weight:bold}
+.nav a:hover{background:#0052cc}
+.wrap{max-width:900px;margin:0 auto;padding:0 15px}
+.title{padding:15px 0;font-size:18px;color:yellow;font-weight:bold;display:flex;justify-content:space-between}
+.title span{color:#fff;font-size:13px}
+.line{border-bottom:2px solid #00BFFF;margin-bottom:15px}
+.box{background:#0000A0;border:1px solid #4d8dff;padding:25px;text-align:center;border-radius:8px}
+.box h2{font-size:22px;margin-bottom:8px}
+.box p{color:#ccc;font-size:14px;margin-bottom:20px}
+.watch-btn{display:inline-block;background:#FF0000;color:#fff;text-decoration:none;padding:14px 40px;font-size:18px;font-weight:900;border-radius:30px}
+.watch-btn:hover{background:#cc0000}
+.note{margin-top:15px;font-size:13px;color:#aaa}
+.footer{text-align:center;padding:20px;color:#ccc;font-size:13px}
+@media(max-width:600px){.right{display:none}.logo{font-size:22px}}
 </style>
 </head>
 <body>
 
-<header>
-<h1>VIDEO ZONE</h1>
-<input type="text" placeholder="Search Video...">
-</header>
+<div class="top">
+<div class="logo">VIDEO<span>ZONE</span>.COM
+<small>Watch Long Videos for FREE</small>
+</div>
+<div class="search">
+<input type="text" placeholder="Search video...">
+<button>Search</button>
+</div>
+<div class="right">
+<span>Language 🇬🇧 ▼</span>
+<span>Content 🇧🇩 ▼</span>
+</div>
+</div>
 
-<div class="menu">
-<button>All</button>
-<button>Movie</button>
-<button>Sports</button>
-<button>Funny</button>
+<div class="nav">
+<a href="#">☰</a>
+<a href="#">BEST OF</a>
+<a href="#">HITS</a>
+<a href="#">TAGS</a>
+<a href="#">PICTURES</a>
+<a href="#">LIVE</a>
+<a href="#">STORIES</a>
+<a href="#">FORUM</a>
+<a href="#">STARS</a>
+<a href="#">GAMES</a>
+<a href="#">UPLOAD</a>
 </div>
 
 <div class="wrap">
-<div class="grid">
+<div class="title"><span>Results for : video</span><span>🚩 Report</span></div>
 
-<div class="card">
-<img src="https://via.placeholder.com/400x220?text=Video+1">
-<div class="card-body">
-<h3>ভিডিওর নাম এখানে লিখো ১</h3>
-<p>10K views • 2 days ago</p>
-<a class="watch" href="https://google.com" target="_blank">▶ Watch Now</a>
-</div>
-</div>
+<div class="line"></div>
 
-<div class="card">
-<img src="https://via.placeholder.com/400x220?text=Video+2">
-<div class="card-body">
-<h3>ভিডিওর নাম এখানে লিখো ২</h3>
-<p>25K views • 1 day ago</p>
-<a class="watch" href="https://google.com" target="_blank">▶ Watch Now</a>
-</div>
-</div>
+<div class="box">
+<h2>তোমার ভিডিওর টাইটেল এখানে</h2>
+<p>এখানে ভিডিও সম্পর্কে ১ লাইন লিখতে পারবা।</p>
 
-<div class="card">
-<img src="https://via.placeholder.com/400x220?text=Video+3">
-<div class="card-body">
-<h3>ভিডিওর নাম এখানে লিখো ৩</h3>
-<p>50K views • 5 hours ago</p>
-<a class="watch" href="https://google.com" target="_blank">▶ Watch Now</a>
-</div>
-</div>
+<!-- 👇 এইখানে তোমার লিংক বসাও -->
+<a class="watch-btn" href="https://google.com" target="_blank">▶ WATCH VIDEO</a>
 
-<div class="card">
-<img src="https://via.placeholder.com/400x220?text=Video+4">
-<div class="card-body">
-<h3>ভিডিওর নাম এখানে লিখো ৪</h3>
-<p>8K views • 1 week ago</p>
-<a class="watch" href="https://google.com" target="_blank">▶ Watch Now</a>
-</div>
+<p class="note">লিংক বদলাতে চাইলে উপরে href="https://google.com" এর জায়গায় তোমার লিংক বসাও।</p>
 </div>
 
 </div>
-</div>
+
+<div class="footer">© 2026 VIDEO ZONE - All Rights Reserved</div>
 
 </body>
 </html>
